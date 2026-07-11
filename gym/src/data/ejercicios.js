@@ -102,7 +102,7 @@ const ejercicios = {
       {
         nombre: 'Dominadas',
         descripcion: '4 series de 6-10 reps. Controla el movimiento.' ,
-        video: 'https://www.youtube.com/embed/jJDpkiZt3-k',
+        video: 'https://youtu.be/npyLB-7o19o?si=EVH-b36yGpImZfaB',
         nivel: 'Avanzado',
         image: '',
         pasos: ['Agarra la barra con un agarre ancho.', 'Súbete hasta que la barbilla pase la barra.', 'Baja controlando.']
@@ -110,7 +110,7 @@ const ejercicios = {
       {
         nombre: 'Remo con Barra',
         descripcion: '3 series de 8-10 reps. Mantén la espalda neutra.',
-        video: 'https://www.youtube.com/embed/p2Jz1lfVWQU',
+        video: 'https://youtu.be/OXH-ecu-Obw?si=BKMXgieuP1LuI-zf',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Flexiona ligeramente las rodillas.', 'Tira de la barra hacia la línea del abdomen.']
@@ -118,7 +118,7 @@ const ejercicios = {
       {
         nombre: 'Jalón al Pecho',
         descripcion: '3 series de 10-12 reps. Excelente para amplitud dorsal.',
-        video: 'https://www.youtube.com/embed/1Tq3QdYUuHs',
+        video: 'https://youtu.be/x2Y6Mb41zjY?si=Wc0RObGIdh8D8Uhs',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Siéntate con la espalda recta.', 'Lleva la barra al pecho y controla la subida.']
@@ -126,7 +126,7 @@ const ejercicios = {
       {
         nombre: 'Pull-Over',
         descripcion: '3 series de 12 reps. Aísla la parte superior del torso.',
-        video: 'https://www.youtube.com/embed/Z_TFV7Dn-80',
+        video: 'https://youtu.be/9YQ1YXKko8s?si=D9afVVKcU7NTJ9_u',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Acostado en banco.', 'Lleva el peso desde detrás de la cabeza hasta arriba.']
