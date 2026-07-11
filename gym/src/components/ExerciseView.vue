@@ -1,4 +1,4 @@
-<template>
+ <template>
   <q-page class="exercise-page" :style="{ '--accent': accent }">
     <div class="hero exercise-hero">
       <div class="hero-eyebrow">Rutina · {{ muscleName }}</div>
@@ -56,15 +56,11 @@
               <q-btn
                 v-for="n in count"
                 :key="n"
-                dense
-                flat
+                unelevated
                 rounded
-                size="sm"
                 :label="n"
-                :color="props.index === n ? 'accent' : 'grey-4'"
-                :text-color="props.index === n ? 'white' : 'dark'"
-                @click="router.push(`/${props.muscle}/ejercicio${n}`)
-                "
+                :style="props.index === n ? { backgroundColor: accent, color: 'white' } : { backgroundColor: 'rgba(255, 255, 255, 0.12)', color: 'white' }"
+                @click="router.push(`/${props.muscle}/ejercicio${n}`)"
               />
             </div>
           </q-card-section>
@@ -177,8 +173,6 @@ function goNext () {
     router.push(`/${props.muscle}/ejercicio${props.index + 1}`)
   }
 }
-
-const gradientBg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="600"><defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="%23022c3a"/><stop offset="100%" stop-color="%2300121f"/></linearGradient></defs><rect width="100%" height="100%" fill="url(%23g)"/></svg>'
 </script>
 
 <style scoped>
@@ -285,6 +279,20 @@ const gradientBg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/s
   border-radius: 20px;
 }
 
+/* Botones de cambiar ejercicio mejorados y más visibles */
+.section-card .q-btn {
+  min-width: 42px;
+  min-height: 42px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.section-card .q-btn:hover {
+  transform: scale(1.08);
+}
+
 .complete-btn {
   margin-top: 12px;
 }
@@ -306,11 +314,6 @@ const gradientBg = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/s
 .card-fade.delay-2 {
   animation-delay: 0.1s;
 }
-
-.exercise-page {
-  --accent: #E8622C;
-}
-
 
 .complete-btn .q-btn__content {
   justify-content: center;

@@ -40,7 +40,8 @@ const ejercicios = {
       {
         nombre: 'Fondos en Paralelas',
         descripcion: '3 series al fallo; excelente para tríceps y pectoral inferior.',
-        video: 'https://www.youtube.com/embed/CJDVWYsN0B0',
+        // Enlace actualizado y funcional
+        video: 'https://www.youtube.com/embed/KSzjayT8tz0',
         nivel: 'Avanzado',
         image: '',
         pasos: [
@@ -81,7 +82,8 @@ const ejercicios = {
       {
         nombre: 'Fondos en Paralelas para Pecho',
         descripcion: '3 series al fallo; inclínate ligeramente para enfatizar pecho.',
-        video: 'https://www.youtube.com/embed/CJDVWYsN0B0',
+        // Enlace actualizado y funcional
+        video: 'https://www.youtube.com/embed/KSzjayT8tz0',
         nivel: 'Avanzado',
         image: '',
         pasos: ['Inclínate hacia adelante durante el movimiento.', 'Controla el descenso y sube con fuerza.']
@@ -89,7 +91,8 @@ const ejercicios = {
       {
         nombre: 'Aperturas con Mancuernas',
         descripcion: '4 series de 12-15 reps para estirar y contraer el pectoral.',
-        video: 'https://www.youtube.com/embed/VR99Wq9yvqw',
+        // Enlace actualizado y funcional
+        video: 'https://www.youtube.com/embed/kgt1Ik1yXpk',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Acostado en banco plano.', 'Abre los brazos en arco manteniendo el codo ligeramente flexionado.']
@@ -101,8 +104,8 @@ const ejercicios = {
     ejercicios: [
       {
         nombre: 'Dominadas',
-        descripcion: '4 series de 6-10 reps. Controla el movimiento.' ,
-        video: 'https://youtu.be/npyLB-7o19o?si=EVH-b36yGpImZfaB',
+        descripcion: '4 series de 6-10 reps. Controla el movimiento.',
+        video: 'https://www.youtube.com/embed/npyLB-7o19o',
         nivel: 'Avanzado',
         image: '',
         pasos: ['Agarra la barra con un agarre ancho.', 'Súbete hasta que la barbilla pase la barra.', 'Baja controlando.']
@@ -110,7 +113,7 @@ const ejercicios = {
       {
         nombre: 'Remo con Barra',
         descripcion: '3 series de 8-10 reps. Mantén la espalda neutra.',
-        video: 'https://youtu.be/OXH-ecu-Obw?si=BKMXgieuP1LuI-zf',
+        video: 'https://www.youtube.com/embed/OXH-ecu-Obw',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Flexiona ligeramente las rodillas.', 'Tira de la barra hacia la línea del abdomen.']
@@ -118,7 +121,7 @@ const ejercicios = {
       {
         nombre: 'Jalón al Pecho',
         descripcion: '3 series de 10-12 reps. Excelente para amplitud dorsal.',
-        video: 'https://youtu.be/x2Y6Mb41zjY?si=Wc0RObGIdh8D8Uhs',
+        video: 'https://www.youtube.com/embed/x2Y6Mb41zjY',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Siéntate con la espalda recta.', 'Lleva la barra al pecho y controla la subida.']
@@ -126,7 +129,7 @@ const ejercicios = {
       {
         nombre: 'Pull-Over',
         descripcion: '3 series de 12 reps. Aísla la parte superior del torso.',
-        video: 'https://youtu.be/9YQ1YXKko8s?si=D9afVVKcU7NTJ9_u',
+        video: 'https://www.youtube.com/embed/9YQ1YXKko8s',
         nivel: 'Intermedio',
         image: '',
         pasos: ['Acostado en banco.', 'Lleva el peso desde detrás de la cabeza hasta arriba.']
